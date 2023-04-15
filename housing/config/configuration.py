@@ -15,7 +15,7 @@ class Configuration:
                  ) -> None:
                 self.config_info = read_yaml_file(file_path=config_file_path)
                 self.training_pipeline_config = self.get_training_pipeline_config()
-
+                self.time_stamp = current_time_stamp
         
         
 
